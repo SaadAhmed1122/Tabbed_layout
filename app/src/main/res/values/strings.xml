@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tabbed_layout</string>
+    <string name="tab_text_1">Description</string>
+    <string name="tab_text_2">Code</string>
+    <string name="sq_tab2">Result</string>
+    <string name="_1_introduction_and_overview_of_dbms">1) Introduction &amp; Overview of DBMS</string>
+    <string name="create_database_query">2) Create Database Query</string>
+    <string name="_3_create_table_query">3) Create Table Query</string>
+    <string name="_5_show_select_particular_column">5) Show &amp; Select Particular Column</string>
+    <string name="_6_show_whole_record">6) Show Whole Record</string>
+    <string name="_7_alter_table">7) Alter Table</string>
+    <string name="_12_delete_truncate_record">12) Delete &amp; Truncate Record</string>
+    <string name="sql_intor">SQL stands for (Structured Query Language) which is use to create or manipulate databases.SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987.
+    </string>
+    <string name="navigation_open">Navigation open</string>
+    <string name="navigation_close">navigation close</string>
+</resources>

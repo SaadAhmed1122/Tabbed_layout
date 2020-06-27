@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="152dp"
+
+    android:padding="25dp"
+    android:background="@color/headermenu"
+    style="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Following Options to View Query"
+
+android:textSize="19dp"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F1852A"
+        />
+
+    <SearchView
+        android:id="@+id/search_query"
+        android:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

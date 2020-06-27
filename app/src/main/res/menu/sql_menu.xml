@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro1"
+            android:checkable="true"
+            android:title="@string/_1_introduction_and_overview_of_dbms">
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro2"
+            android:checkable="true"
+            android:title="@string/create_database_query">
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro3"
+            android:checkable="true"
+            android:title="@string/_3_create_table_query">
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro4"
+            android:checkable="true"
+            android:title="4) Insert Data into Table">
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro5"
+            android:checkable="true"
+            android:title="@string/_5_show_select_particular_column">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro6"
+            android:checkable="true"
+            android:title="@string/_6_show_whole_record">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro7"
+            android:title="@string/_7_alter_table">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro8"
+            android:checkable="true"
+            android:title="8) Change Column Datatype">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro9"
+            android:checkable="true"
+            android:title="9) Maximum Function">
+        </item></group><group android:checkableBehavior="single">
+    <item
+        android:id="@+id/intro10"
+        android:checkable="true"
+        android:title="10) Minimum Function">
+    </item></group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro11"
+            android:checkable="true"
+            android:title="10) Count Function">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro12"
+            android:checkable="true"
+            android:title="10) Average Function">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro13"
+            android:checkable="true"
+            android:title="10) Sum Function">
+        </item></group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro14"
+            android:checkable="true"
+            android:title="10) Update Particular Record">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro15"
+            android:checkable="true"
+            android:title="11) Delete Particular Record">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro16"
+            android:checkable="true"
+            android:title="@string/_12_delete_truncate_record">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro17"
+            android:checkable="true"
+            android:title="14) Where clause">
+        </item></group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro18"
+            android:checkable="true"
+            android:title="15) Order by clause">
+        </item></group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/intro19"
+            android:checkable="true"
+            android:title="16) Limit Function">
+        </item></group>
+
+</menu>

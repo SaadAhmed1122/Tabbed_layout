@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/sql_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Title here"
+        android:textColor="@color/title_clr"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:id="@+id/view_sql"
+            android:layout_width="10dp"
+            android:layout_height="120dp"
+            android:visibility="invisible"
+            android:background="@color/green_clr"
+           />
+
+        <TextView
+            android:id="@+id/content_sql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="@string/sql_intor"
+            android:textColor="#000000"
+            android:textSize="21dp"
+            app:fontFamily="sans-serif" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/main_lay_sql"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/title_clr"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:fontFamily="serif"
+        android:text="Components and Services of SQL Server"
+        />
+
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> Database Engine: "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text="It handle storage, Rapid transaction Processing, and Securing Data."/>
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> SQL Server: "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text="This service starts, stops, pauses, and continues an instance of Microsoft SQL Server. Executable name is Sqlserver.exe."/>
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> SQL Server Browser: "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text="This listens to the incoming request and connects to the desired SQL server instance."/>
+<TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> SQL Server Full-Text Search: "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text="This lets user running full-text queries against Character data in SQL Tables."/>
+
+<TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> SQL Server VSS Writer: "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text="This allows backup and restoration of data files when the SQL server is not running. Executable name is sqlwriter.exe."/>
+
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> SQL Server Analysis Services (SSAS): "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text="Provide Data analysis, Data mining and Machine Learning capabilities. SQL server is integrated with R and Python language for advanced analytics. Executable name is msmdsrv.exe."/>
+
+
+ <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:text="-> SQL Server Reporting Services (SSRS): "
+         android:textColor="#000000"
+         android:textSize="22dp"
+         app:fontFamily="sans-serif-black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textSize="18dp"
+         android:text=" Provides reporting features and decision-making capabilities."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="-> SQL Server Integration Services (SSIS): "
+        android:textColor="#000000"
+        android:textSize="22dp"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:text="Provided Extract-Transform and Load capabilities of the different type of data from one source to another."/>
+
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
